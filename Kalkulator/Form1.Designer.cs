@@ -1,6 +1,6 @@
 ﻿namespace Zadanie2
 {
-    partial class Form1
+    partial class GlowneOkno
     {
         /// <summary>
         /// Required designer variable.
@@ -296,11 +296,11 @@
             this.buttonNrLiczby.UseVisualStyleBackColor = true;
             this.buttonNrLiczby.Click += new System.EventHandler(this.buttonNrLiczby_Click);
             // 
-            // Form1
+            // GlowneOkno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 302);
+            this.ClientSize = new System.Drawing.Size(414, 302);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -324,8 +324,9 @@
             this.Controls.Add(this.textLiczba1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Kalkulator";
+            this.Name = "GlowneOkno";
+            this.Text = "Kalkulator - Daniel Lamek nr albumu 178838";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

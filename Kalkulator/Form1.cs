@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Zadanie2
 {
-    public partial class Form1 : Form
+    public partial class GlowneOkno : Form
     {
-        public Form1()
+        public GlowneOkno()
         {
             InitializeComponent();
         }
@@ -235,6 +235,11 @@ namespace Zadanie2
             } else {
                 textWynik.Text = "Błąd !!!";
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
